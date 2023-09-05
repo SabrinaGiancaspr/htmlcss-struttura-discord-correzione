@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* header row nav*/
+
+.page-header{
+    width: 100%;
+    background-color:#ADD8E6 ;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-container{   
+    min-height: 70px;
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.col-3{
+    min-height: 10px;
+    flex-basis: calc(100% / 4);
+    border: 1px solid black;
+}
+
+
+.col-6{
+    min-height: 10px;
+    flex-basis: calc(100% / 2) ;
+    border: 1px solid black;
+}
+
+.orange{
+    background-color: #DAA520;
+}
+
+/* seconda section header  */
+
+.page-section{
+    width: 100%;
+    background-color: #00008B;
+}
+
+.pink{
+    background-color:#EE82EE;
+    border: 1px solid black;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.container-header{
+    min-height: 300px;
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.col-6-special{
+    min-height: 250px;
+    flex-basis: calc(100% / 2);
+}
+
+/* main section con tre row */
+
+.main-page{
+    width: 100%;
+}
+
+.container{
+    min-height: 300px;
+    padding: 30px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.col-7{
+    flex-basis: calc((100% / 12) * 7);
+    min-height: 250px;
+}
+
+.col-5{
+    flex-basis: calc((100% / 12) * 5);
+    min-height: 250px;
+}
+
+.blue{
+    background-color:#1E90FF ;
+}
+
+.light-pink{
+    background-color: #FFC0CB;
+}
+
+.bg-grey{
+    background-color: #D3D3D3;
+}
+
+.rewerse{
+    flex-direction: row-reverse;
+}
+
+/* footer  */
+
+.page-footer{
+   width: 100%;
+   background-color:#D3D3D3;
+}
+
+.container-green{
+    padding: 30px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.col-12{
+    min-height: 400px;
+    flex-basis: 100%;
+    background-color: green;
+}
+
+/* footer black bg  */
+
+.footer-black-bg{
+    width: 100%;
+    background-color: #23272A;
+    border: 1px solid white;
+}
+
+.col-4{
+    flex-basis: calc((100% / 12) * 4);
+    background-color: #EE82EE;
+    border: 1px solid black;
+    min-height: 300px;
+}
+
+.col-2{
+    flex-basis: calc((100% / 12) * 2);
+    background-color: #20B2AA;
+    border: 1px solid black;
+    min-height: 300px;
+}
+
+.container-black{
+    min-height: 70px;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.aqua{
+    background-color: aqua;
+    
+}
+
